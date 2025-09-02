@@ -11,7 +11,6 @@
   }
   
   .modal-content {
-    /* background: white; */
     padding: 20px;
     border-radius: 12px;
     max-width: 600px;
@@ -37,7 +36,7 @@
   }
   
   .modal-content img {
-    width: 430px;
+    width: 63%;
     border-radius: 8px;
   }
   .modal-content p {
@@ -49,3 +48,13 @@
     margin-top: 10px;
   }
   
+  @media (max-width: 768px) {
+    .modal-content img {
+      width: 50%;
+    }
+    .modal-close {
+      left: 45%;
+      width: 10%;
+      height: 13%;
+    }
+  }

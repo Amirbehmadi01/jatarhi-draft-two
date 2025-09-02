@@ -37,3 +37,16 @@
   .section-content h2{
     text-align: right;
   }
+
+@media (max-width: 768px) {
+  .portfolio-item{
+    margin-bottom: 20px;
+  }
+  .portfolio-item img {
+    width: 155px;
+  }
+  .portfolio-item button {
+    margin-top: 3px;
+    font-size: 17px;
+  }
+}
