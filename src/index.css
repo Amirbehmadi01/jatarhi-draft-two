@@ -1,0 +1,10 @@
+body{
+    background-color: #4e545467;
+    font-family: 'Peyda', sans-serif;
+  }
+@font-face {
+    font-family: 'Peyda';
+    src: url('./public/fonts/Peyda/PeydaWeb.woff2')format('woff2'), url('./assets/font/Peyda/PeydaWeb.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
